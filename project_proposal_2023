@@ -1,0 +1,30 @@
+Project:
+
+Feature and sample selection on extremely large transcriptomics data sets for human phenotype prediction
+
+
+Abstract;
+
+Prediciton human disease phenotypes from genetic data is a challenging problem with a wide variety of applications in human health. A core application is in the development personalised medicine approaches. We are currently working on very large scale transcriptomics analyses using hundreds of thousands of features. Efficient means for feature and sample selection are needed to enable downstream machine learning analysis.
+
+The project will focus on feature selection over the ARCHS4 (https://maayanlab.cloud/archs4/)[1] to find the optimal features for prediction Human Phenotypes Ontology (https://hpo.jax.org/app/) terms [2]. The ARCHS4 dataset contains every transcriptomics expriment currently hosted at GEO (https://www.ncbi.nlm.nih.gov/geo/)[3] and contains more than 440,000 features. In this project we would like to investigate efficient methods for dimensionality reduction over very large dimensional datasets using filtering and wrapper methods. The project will also investigate whether dimensionality reduction is best accomplished over the whole dataset or on a per-HPO term basis.
+
+The final output of the project will be a pipeline or methodology for perfoeming fast, efficient dimensionality reduction on the ARCHS4 dataset.
+
+Essential Background: Python programming, Introductory machine learning/data science
+Good To Know: Introductory protein biochemsitry, introductory bioinformatics.
+
+Refs and reading:
+
+1. Lachmann A, Torre D, Keenan AB, Jagodnik KM, Lee HJ, Wang L, Silverstein MC, Ma’ayan A. Massive mining of publicly available RNA-seq data from human and mouse. Nature Communications 9. Article number: 1366 (2018), doi:10.1038/s41467-018-03751-6
+
+2. Sebastian Köhler, Michael Gargano, Nicolas Matentzoglu, Leigh C Carmody, David Lewis-Smith, Nicole A Vasilevsky, Daniel Danis, Ganna Balagura, Gareth Baynam, Amy M Brower, Tiffany J Callahan, Christopher G Chute, Johanna L Est, Peter D Galer, Shiva Ganesan, Matthias Griese, Matthias Haimel, Julia Pazmandi, Marc Hanauer, Nomi L Harris, Michael J Hartnett, Maximilian Hastreiter, Fabian Hauck, Yongqun He, Tim Jeske, Hugh Kearney, Gerhard Kindle, Christoph Klein, Katrin Knoflach, Roland Krause, David Lagorce, Julie A McMurry, Jillian A Miller, Monica C Munoz-Torres, Rebecca L Peters, Christina K Rapp, Ana M Rath, Shahmir A Rind, Avi Z Rosenberg, Michael M Segal, Markus G Seidel, Damian Smedley, Tomer Talmy, Yarlalu Thomas, Samuel A Wiafe, Julie Xian, Zafer Yüksel, Ingo Helbig, Christopher J Mungall, Melissa A Haendel, Peter N Robinson, The Human Phenotype Ontology in 2021, Nucleic Acids Research, Volume 49, Issue D1, 8 January 2021, Pages D1207–D1217, https://doi.org/10.1093/nar/gkaa1043
+
+3. Edgar R, Domrachev M, Lash AE.
+Gene Expression Omnibus: NCBI gene expression and hybridization array data repository
+Nucleic Acids Res. 2002 Jan 1;30(1):207-10
+
+4. Ibrahim Alsaggaf, Daniel Buchan, Cen Wan
+Improving cell-type identification with Gaussian noise-augmented single-cell RNA-seq contrastive learning, doi: https://doi.org/10.1101/2022.10.06.511191
+
+For further info contact Daniel Buchan daniel.buchan@ucl.ac.uk
